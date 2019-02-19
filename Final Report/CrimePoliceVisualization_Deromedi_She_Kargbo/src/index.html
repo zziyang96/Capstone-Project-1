@@ -1,0 +1,270 @@
+<html>
+<head>
+	<title>CS Capstone</title>
+	<link rel="stylesheet" type="text/css" href="index_visual.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Judson' rel='stylesheet'>
+	<style type="text/css">
+
+	body{
+		font-family: 'Judson';
+	}
+</style>
+</head>
+<body >
+	<div id="navbar_top">
+		<a href="#top_page">Top</a>
+		<a href="#about">About Us</a>
+		<a href="#crime">Crime</a>
+		<a href="#police">Police</a>
+		<a href="#stats">Statistics</a>
+		<a href="#contribution">Contact Us </a>
+	</div>
+
+	<script type="text/javascript">
+		window.onscroll = function() {myFunction()};
+		var navbar = document.getElementById("navbar_top");
+		var sticky = navbar.offsetTop;
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
+
+	<div class = "header"  id="top_page">
+		<h1 class = main_title>Crime Analytics</h1>
+		<h2 class = "sub_title">Understanding Crime within the United States of America</h2>
+	</div>
+
+	<div class = "paragraph">
+		<p class = "explaination">The United States of America has been plagued with high crime rates for a while. We aim to help tackle this problem with this site to provide an overview and comparisons of different government datasets about crime, allowing anyone to find correlations between law enforcement and the crime rates. The data has been filtered by state and by topic. We believe this tool will give police departments and elected officials a better understanding of crime in their state, ultimatly making citizens more protected. This tool is organized into three main sections; Police analytics, Crime analytics, and a combination of both. There is also a search bar that provides more detailed knowledge with the expense of no visualization.</p>
+	</div>
+
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line">
+
+<<<<<<< HEAD
+	<!--<br>
+	<form class="example" action="../state_date.html">
+		<input type="text" placeholder="What are you looking for..." name="search">
+		<button type="submit"><i class="fa fa-search"></i></button>
+		<a href="police_assault.html" class="button">Search</a>
+		<p>Include what the user can do here with the search bar</p>
+	</form>-->
+
+	<!--<h2>This search bar can allow you to access our public database. You can access comprehensive crime data across the United States, or you can access individual state crime data.</h2>
+
+	<h2>Are you looking for your United State's criminal data?</h2>
+	<h2>Or you looking for state's criminal data that you're interested in?</h2>
+
+	<marquee behavior="scroll" direction="right" scrollamount="3">Washington DC</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="4">Miami</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="3">San Francisco</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="4">Los Angeles</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="3">Chicago</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="4">Orlando</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="3">Seattle</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="4">Salt Lake City</marquee>
+=======
+	<br>
+	<marquee behavior="scroll" direction="right" scrollamount="3">Police Spending</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="4">Homicide</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="3">Amount of officers</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="4">Violent Crime</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="3">Corrections Spending</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="4">Burglary</marquee>
+	<marquee behavior="scroll" direction="right" scrollamount="3">Officer Assaults</marquee>
+	<marquee behavior="scroll" direction="left" scrollamount="4">Time of Day</marquee>
+>>>>>>> a293b244f3389816684d9eaaff40495608d8f7f7
+
+
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line" id="about">-->
+
+	<br>
+	<br>
+	<br>
+
+	<div class = "about_us">
+		<h1 class = "bar header"><span>About Us</span></h1>	
+		<div class = "row">
+			<div class = "column">
+				<div class = "picture_container">
+					<img class = "image_left" src = "Victor_photo.jpg" alt = "author_victor">
+					<div class = "picture_overlay_left">
+						<div class = "picture_text">
+							<h1>Ziyang She</h1>
+							<p>Data Sorting</p>
+							<p>Computer Science Major</p>
+							<p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Center Picture-->
+			<div class = "column">
+				<div class = "picture_container">
+					<img class = "image_up" src = "James_Photo.jpg" alt = "author_james">
+					<div class = "picture_overlay_up">
+						<div class = "picture_text">
+							<h1>James Deromedi</h1>
+							<p>Map Maker</p>
+							<p>Computer Science Major</p>
+							<p>Physics Minor</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Right Picture-->
+			<div class = "column">
+				<div class = "picture_container">
+					<img class = "image_right" src = "JRPicture3.jpg" alt = "author_JR">
+					<div class = "picture_overlay_right">
+						<div class = "picture_text">
+							<h1>Karefa Kargbo (JR)</h1>
+							<p>Statistical Analyzer</p>
+							<p>Computer Science Major</p>
+							<p>Economics Major</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<p>Our team is made up of three Computer Science seniors from American Univeristy. With a large range of expertise, each member took tasks that complemented their strengths. As well as, taking small tasks that pushed the knowlegde of each member. We approached this problem of big data, not too predict outcomes but to give a useful tool to our nations law enforement.</p>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line" id="crime">
+
+	<br>
+	<div class = "map">
+		<div class = "paragraph" >
+			<h1>United States Crime Analytics</h1>
+			<p class = "crime_explaination">Here, we can see data for each state for the amount of reports of violent crime, the amount of reported assaulted officers and the amount of reported homicides. The states with the highest amounts of all of these incidents are California and Texas. While that can mostly be explained by differences in population, there are still interesting findings in this data. For example, California has by far the greatest amount of homicides, beating out the next largest state, Texas, by about 700 incidents. </p>
+		</div>
+		<iframe width="80%" height="520" frameborder="1" src="https://jmderomedi.carto.com/builder/edfce289-d7bf-4528-8c4e-239c5837bf17/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		<br>
+		<h3>To use the interactive map, click and drag with the mouse to move around and use the scroll wheel to zoom in or out. To project the data of a bar graph on the right, simply click on the teardrop icon. This action will layer the histogram data onto the map, providing detailed analysis.</h3>
+		
+		<ul id="myList">
+		<li><a href="crime_tables.html">Crime Data Analysis</a></li>
+		</ul>
+	</div>
+
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line" id="police">
+
+	<br>
+	<div class = "map">
+		<div class = "paragraph" >
+			<h1>United States Law Enforcement Analytics</h1>
+			<p class = "police_explaination">This graph has data on the amount of police officrs per 1000 people, total police officer expenditure, and total corrections spending. Interestingly enough, the large population states didn't have the most police expenditure, even though the  crime rate seems to have scaled linearly with the data. This could mean that these states could see a decrease in crime by increasing their amount of police officers. Another interesting point, while California doesn't spend a lot of money of police officers or equipment, they are amongst the highest spenders in the country in terms of correction, such as prisons.</p>
+		</div>
+		<iframe width="80%" height="520" frameborder="1" src="https://jmderomedi.carto.com/builder/c07925e1-5c82-45ac-9811-e5e2123f9e87/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		<br>
+		<h3 id = "searchParam">To use the interactive map, click and drag with the mouse to move around and use the scroll wheel to zoom in or out. To project the data of a bar graph on the right, simply click on the teardrop icon. This action will layer the histogram data onto the map, providing detailed analysis.</h3>
+	</div>
+
+	<h2>Officer Assault Search Table</h2>
+
+	<input type="text" id="searchBar" onkeyup="searchFunction()" placeholder="Type to reduce options" title="Type in variable">
+
+	<ul id="myList">
+		<li><a href="police_assault.html#month">Month of Assault</a></li>
+		<li><a href="police_assault.html#day">Day of Assault</a></li>
+
+		<li><a href="police_assault.html#time">Time of Assault</a></li>
+		<li><a href="police_assault.html#lighting">Lighting Conditions of Assault</a></li>
+
+		<li><a href="police_assault.html#race_sex">Race, Sex, and Age of Victims</a></li>
+		<li><a href="police_assault.html#weapon">Type of Weapon used in Assault</a></li>
+	</ul>
+
+	<script>
+		function searchFunction() {
+			var input, filter, ul, li, a, i, txtValue;
+			input = document.getElementById("searchBar");
+			filter = input.value.toUpperCase();
+			ul = document.getElementById("myList");
+			li = ul.getElementsByTagName("li");
+			for (i = 0; i < li.length; i++) {
+				a = li[i].getElementsByTagName("a")[0];
+				txtValue = a.textContent || a.innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					li[i].style.display = "";
+				} else {
+					li[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line" id="stats">
+
+	<br>
+	<div class = "map" >
+		<h1>Combined Police and Crime Analytics</h1>
+		<p class = "combined_explantation">The following section includes maps that combined the crime and police data. These were created to show correlation between the two sets of data.</p>
+		<p class = "police_crime">This graph displays some stuff, the map is super broken right now</p> 
+		<iframe width="80%" height="520" frameborder="1" src="https://jmderomedi.carto.com/builder/dae6e858-e428-4081-a4ad-9169029635e1/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		<br>
+		<h3>To use the interactive map, click and drag with the mouse to move around and use the scroll wheel to zoom in or out. To project the data of a bar graph on the right, simply click on the teardrop icon. This action will layer the histogram data onto the map, providing detailed analysis.</h3>
+	</div>
+
+	<br>
+	<div class = "map">
+		<h1>Citizens vs Crime</h1>
+		<p class = "citizen_crime">This map shows the correlations between the population of each state and different crimes that are prelavant. The darker the color, the higher the population to violent crime.</p>
+		<iframe width="80%" height="520" frameborder="1" src="https://jmderomedi.carto.com/builder/f7ae15d6-8fde-4b12-8e9e-fcbcbdd33b59/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+		<br>
+		<h3>To use the interactive map, click and drag with the mouse to move around and use the scroll wheel to zoom in or out. To project the data of a bar graph on the right, simply click on the teardrop icon. This action will layer the histogram data onto the map, providing detailed analysis.</h3>
+	</div>
+
+	<br>
+	<hr class = "short_line">
+	<hr class = "long_line">
+	<hr class = "short_line" id="contribution">
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class = "paragraph" >
+		<h4 class = "contributions">The data was collected through public access goverment websites, data.gov and fbi.gov. The maps were created with CARTO, a free software for students. A special
+		thanks to Professor Owrang for mentoring the capstone course. Certain HTML tables were made using an online site called Tableizer!.</h4>
+		<h4 class = "contact_us">For any questions please us at jd1504a@american.edu. Or zs7787a@american.edu</h4>
+		<h4 class = "license">This is a free software for educational and personal use, referencing the authors is not necessary. This software can not be used for commreical uses.</h4>
+	</div>
+	<h2><p> Pretty great right?! 
+		<a href="temp_page.html" class="button">Yes!</a>
+	</p></h2>
+	<br>
+	<br>
+
+	<div id="navbar_bottom">
+		<a href="#top_page">Top</a>
+		<a href="#about">About Us</a>
+		<a href="#contribution">Contact Us </a>
+	</div>
+</body>
+</html>
